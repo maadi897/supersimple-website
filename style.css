@@ -1,0 +1,32 @@
+@import url(https://www.frontendmentor.io/);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: aliceblue;
+   
+}
+.wrapper{
+    background: white;
+    max-width: 410px;
+}
+.wrapper .qr-code{
+    display: flex;
+    padding: 33px 0;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+}
+.wrapper .h1{
+    text-align: center;
+}
+.wrapper .paragraph{
+    text-align: center;
+}
